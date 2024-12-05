@@ -1,1 +1,1 @@
-# 10x-Teia-Shavadze
+# 10x
