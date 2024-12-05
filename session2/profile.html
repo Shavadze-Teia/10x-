@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Profile</title>
+</head>
+<style>
+    #main-heading {
+        color: rgb(19, 114, 59);
+    }
+
+    #about-me {
+        background-color: rgb(190, 247, 225);
+    }
+
+    .yellow-background {
+        background-color: lightyellow;
+    }
+</style>
+</head>
+
+<body>
+<!-- Main Heading -->
+<h1 id="main-heading">Teia Shavadze</h1>
+
+<!-- Section "About Me" -->
+<h2 id="section">About Me</h2>
+<div id="about-me">
+    <p> 
+        Hello! My name is Teia Shavadze, I am from Khulo, Adjara. I live in Batumi. 
+        If you are interested in exploring Adjara, check out
+        <a href="https://visitajara.com/ka" target="_blank">VisitAdjara</a>.
+    </p>
+    <div> 
+        <!-- Correct use of class for background color -->
+        <p class="yellow-background" data-info="FRIENDS" title="Friends"> My favorite TV show is FRIENDS</p>
+        <p id="class-name">Could I have written anything more?</p>
+    </div>
+
+    <h3>Fun Facts</h3>
+    <p><b>Fun fact1</b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> 
+        <strong>Nam minima cumque blanditiis,</strong> reprehenderit debitis unde porro aliquam <br> 
+        in neque quas a <i>ipsa impedit perferendis</i> cupiditate inventore <em>laborum ut</em> aperiam <mark>nisi</mark>.
+    </p>
+
+    <p>Lorem ipsum dolor <small>sit amet</small> consectetur adipisicing elit. <del> Ducimus velit</del>, animi maiores <br> 
+        officiis veritatis <ins>aliquam veniam debitis</ins>, tempore accusantium laudantium quibusdam <br> 
+        consequuntur, magnam similique <sub>in corporis ut incidunt dignissimos</sub>. <sup>Sapiente</sup>.
+    </p>
+
+    <p><b>Hobbies</b></p>
+    <ul> 
+        <li>Lorem ipsum </li>
+        <li>Lorem ipsum </li>
+        <li>Lorem ipsum </li>
+    </ul>
+
+    <p><b>Goals to achieve</b></p>
+    <ol>
+        <li>Lorem ipsum </li>
+        <li>Lorem ipsum </li>
+        <li>Lorem ipsum </li>
+    </ol>
+
+    <b>Skills</b>
+    <dl>
+        <dt>Lorem ipsum</dt>
+        <dt>Lorem ipsum</dt>
+        <dd>Lorem ipsum</dd>
+        <dd>Lorem ipsum</dd>
+    </dl>
+
+    <label for="contact"> Leave your contact </label>
+    <input id="contact" name="contact">
+    <button type="submit" onclick="sendContact()">Send</button>
+</div>
+
+<script>
+    function sendContact() {
+        alert("Contact information sent!");
+    }
+</script>
+
+
+</body>
+</html>
