@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th{
+            background-color: antiquewhite;
+        }
+
+        td:hover {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- First table -->
+    <table>
+        <caption>
+            <h1>List of Participants</h1>
+        </caption>
+            <tr>
+                <th scope="col" id="Name">Name</th>
+                <th scope="col" id="Age">Age</th>
+                <th scope="col" id="Email">Email</th>
+            </tr>
+            <tr>
+                <td headers="Name">Teia</td>
+                <td headers="Age">27</td>
+                <td headers="Email">teiashavadze@gmail.com</td>
+            </tr>
+            <tr>
+                <td headers="Name">ketevan</td>
+                <td headers="Age">27</td>
+                <td headers="Email">ketevankatamadze@gmail.cpm</td>
+            </tr>
+            <tr>
+                <td headers="Name">Mariam</td>
+                <td headers="Age">29</td>
+                <td headers="Email">mariamdzirkvadze@gmail.com</td>
+            </tr>
+            <tr>
+                <td headers="Name">Tekla</td>
+                <td headers="Age">23</td>
+                <td headers="Email">teklapap@gmail.com</td>
+            </tr>
+            <tr>
+                <td headers="Name">Tea</td>
+                <td headers="Age">28</td>
+                <td headers="Email">tea96@gmail.com</td>
+            </tr>
+    </table>
+    <!--Second table  -->
+    <table aria-label="Weekly Schedule">
+        <caption>
+            <h1>Weekly Activity Schedule</h1>
+
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <th>Morning</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="2" style="text-align: center;">Yoga</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Afternoon</th>
+                    <td colspan="3" style="text-align: center;">14:00 Team Meeting </td>
+                    <td></td>
+                    <td> 
+                        <td>
+                            <table>Zoom Meeting
+                                <td>14:10 Dev</td>
+                                <td>14:40 Com</td>
+                            </table>
+                          </td>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Evening</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>       
+        </caption>
+    </table>
+    <table>
+        <caption>
+            <h1>Shopping cart</h1>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td>shoes</td>
+                <td>2</td>
+                <td>150$</td>
+                <td>300$</td>
+            </tr>
+            <tr>
+                <td>Trousers</td>
+                <td>1</td>
+                <td>90$</td>
+                <td>90$</td>
+            </tr>
+            <tr>
+                <td>Hat</td>
+                <td>2</td>
+                <td>60$</td>
+                <td>120$</td>
+            </tr>
+            <tr>
+                <td>Coat</td>
+                <td>2</td>
+                <td>100$</td>
+                <td>200$</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: yellow;">
+            <tr>
+                <td colspan="4" style="text-align: right;">Sum:710$</td>
+            </tr>
+        </tfoot>
+        </caption>      
+    </table>
+
+    <table>
+        <h1>December</h1>
+        <tr>
+            <th>M</th>
+            <th>T</th>
+            <th>W</th>
+            <th>T</th>
+            <th>F</th>
+            <th>S</th>
+            <th>S</th>
+        </tr>
+        <tr>
+           <td style="background-color: aqua;"></td>
+           <td style="background-color: aqua;"></td>
+           <td style="background-color: aqua;"></td>
+           <td style="background-color: aqua;"></td>
+           <td style="background-color: aqua;"></td>
+           <td style="background-color: aqua;"></td>
+           <td style="background-color: aqua;">1</td>
+        </tr>
+        <tr>
+           <td>2</td>
+           <td>3</td>
+           <td>4</td>
+           <td>5</td>
+           <td>6</td>
+           <td>7</td>
+           <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+        <tr>
+           <td>16</td>
+           <td>17</td>
+           <td>18</td>
+           <td>19</td>
+           <td>20</td>
+           <td>21</td>
+           <td>22</td>
+        </tr>
+        <tr>
+           <td>23</td>
+           <td>24</td>
+           <td>25</td>
+           <td>26</td>
+           <td>27</td>
+           <td>28</td>
+           <td>29</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>31</td>
+            <td style="background-color: aqua;">1</td>
+            <td style="background-color: aqua;">2</td>
+            <td style="background-color: aqua;">3</td>
+            <td style="background-color: aqua;">4</td>
+            <td style="background-color: aqua;">5</td>
+        </tr>
+    </table>
+</body>
+</html>
