@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family: "IM Fell English", serif;
+}
+button{
+    width: 152px;
+    height: 34px;
+    border-radius: 99px;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+}

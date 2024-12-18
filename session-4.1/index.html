@@ -1,161 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-    body{
-        background-color:  #611ECB;
+    body {
+        background-color: #611ECB;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 100vh;
         overflow: hidden;
     }
-    table{
-        border-collapse:separate;
+
+    table {
+        border-collapse: separate;
         border-spacing: 0;
         overflow: hidden;
         border-radius: 20px;
         width: 800px;
         background-color: #FFFFFF;
-        border:solid 1px #E1CFFF 
+        border: solid 1px #E1CFFF
     }
-    td, th{
+
+    td,
+    th {
         padding: 8px;
         text-align: left;
         border-bottom: solid 1px #E1CFFF;
-        padding:10px 20px
+        padding: 10px 20px
     }
-    tr:hover{
+
+    tr:hover {
         background-color: #E1CFFF;
     }
-    .star{
+
+    .star {
         color: #611ECB;
     }
-    .nonestar{
+
+    .nonestar {
         color: rgb(233, 231, 231);
     }
-    .nonestar:hover{
+
+    .nonestar:hover {
         font-size: larger;
     }
-    .star:hover{
+
+    .star:hover {
         font-size: larger;
     }
-    
 </style>
+
 <body style="background-color: #611ECB;">
     <table>
-            <tr style="background-color: #F5F5F5;">
-                <th><input type="checkbox"></th>
-                <th>Name</th>
-                <th>Role</th>
-                <th>Company</th>
-                <th>Location</th>
-                <th>Rating</th>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td>Buzz</td>
-                <td>Owner</td>
-                <td>Your Friend Buzz</td>
-                <td>Australia</td>
-                <td>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="nonestar">&#9733;</span>
-                    <span class="nonestar">&#9733;</span>
-                    <span class="nonestar">&#9733;</span>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td>Dustin</td>
-                <td>Admin</td>
-                <td>Story Inc</td>
-                <td>Hong Kong</td>
-                <td>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="nonestar">&#9733;</span>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td>Mark</td>
-                <td>User</td>
-                <td>Mixpanel</td>
-                <td>Unated States of America</td>
-                <td>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td>Cynthia</td>
-                <td>Visitor</td>
-                <td>Shopify</td>
-                <td>Canada</td>
-                <td>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td>Cynthia</td>
-                <td>Visitor</td>
-                <td>Shopify</td>
-                <td>Canada</td>
-                <td>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td>Cynthia</td>
-                <td>Visitor</td>
-                <td>Shopify</td>
-                <td>Canada</td>
-                <td>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td>Cynthia</td>
-                <td>Visitor</td>
-                <td>Shopify</td>
-                <td>Canada</td>
-                <td>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                    <span class="star">&#9733;</span>
-                </td>
-            </tr>
+        <tr style="background-color: #F5F5F5;">
+            <th><input type="checkbox"></th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Company</th>
+            <th>Location</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Buzz</td>
+            <td>Owner</td>
+            <td>Your Friend Buzz</td>
+            <td>Australia</td>
+            <td>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="nonestar">&#9733;</span>
+                <span class="nonestar">&#9733;</span>
+                <span class="nonestar">&#9733;</span>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Dustin</td>
+            <td>Admin</td>
+            <td>Story Inc</td>
+            <td>Hong Kong</td>
+            <td>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="nonestar">&#9733;</span>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Mark</td>
+            <td>User</td>
+            <td>Mixpanel</td>
+            <td>Unated States of America</td>
+            <td>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Cynthia</td>
+            <td>Visitor</td>
+            <td>Shopify</td>
+            <td>Canada</td>
+            <td>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Cynthia</td>
+            <td>Visitor</td>
+            <td>Shopify</td>
+            <td>Canada</td>
+            <td>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Cynthia</td>
+            <td>Visitor</td>
+            <td>Shopify</td>
+            <td>Canada</td>
+            <td>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Cynthia</td>
+            <td>Visitor</td>
+            <td>Shopify</td>
+            <td>Canada</td>
+            <td>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </td>
+        </tr>
 
-        
+
     </table>
 </body>
+
 </html>

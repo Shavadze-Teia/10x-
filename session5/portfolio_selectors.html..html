@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0; 
+        box-sizing: border-box
+    }
+    h1{
+        text-align: center;
+        color: darkblue;
+    }
+    h2{
+        font-size: 24px; 
+        text-underline-offset: underline;
+    }
+    h3 {
+        font-size: 20px; 
+        color: darkgreen;
+    }
+    p {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    .project1{
+        background-color: darksalmon;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project2{
+        background-color: darkseagreen;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project3{
+        background-color: darkkhaki;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    #about{
+        background-color: lightgrey;
+        text-align: center;
+    }
+    #skills{
+        background-color: lightyellow;
+    }
+    .color{
+        color: darkred;
+    }
+    h3{
+        background-color:blanchedalmond;
+        border-radius: 20px ;
+    }
+    img{
+        border: 2px solid black; border-radius: 50%;
+    }
+    .navigation a:hover{
+        color: orange;
+        text-underline-offset: underline; 
+    }
+    li::before {
+content: "⭐ ";
+}
+.Testimonials{
+    text-align: center;
+    color: rgb(77, 68, 87);
+    background-color: rgb(236, 232, 232);
+    border-radius: 90px;
+    width: 500px;
+    display: flex;   
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a class="color" href="">About</a></li>
+                <li><a class="color" href="">Projects</a></li>
+                <li><a class="color" href="">Skills</a></li>
+            </ul>
+        </nav>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad expedita sunt, cupiditate porro quaerat, quis minima excepturi sit delectus neque molestiae? Accusantium maiores minus tenetur tempore animi, error atque perferendis.</p>
+            <img src="./media/OIP.jpg" alt="profilepic">
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div>
+                <div class="project1">
+                    <h3>Project1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa officia itaque fugiat accusantium officiis sapiente earum, debitis animi id at? Libero ipsam tempora eum tenetur exercitationem nulla cum doloremque unde!</p>
+                    <blockquote class="Testimonials">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias nemo recusandae quibusdam obcaecati corporis eos magni voluptatum accusamus quia?</blockquote>
+                </div>
+                <div class="project2">
+                    <h3>Project2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eligendi voluptas similique qui sunt, rem labore ullam, eveniet, fugit dolores in vitae autem perferendis maiores earum tenetur quisquam rerum amet.</p>
+                    <blockquote class="Testimonials"> Consectetur maiores nostrum nam deserunt laudantium alias aliquam ratione nobis at.</blockquote>
+                </div>
+                <div class="project3">
+                    <h3>Project3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus beatae quo qui voluptate laboriosam quas pariatur dignissimos non aspernatur id, voluptatibus minima, quis, laborum ad voluptatem quod et rerum atque. </p>
+                     <blockquote class="Testimonials"> Consectetur maiores nostrum nam deserunt laudantium alias aliquam ratione nobis at.Consectetur maiores nostrum nam deserunt laudantium alias aliquam ratione nobis at.</blockquote> 
+                </div>
+            </div>
+        </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li><b>HTML</b></li>
+            <li><b>CSS</b></li>
+            <li><b>JavaScript</b></li>
+            <li><b>Problem Solving</b></li>
+            <li><b>Communication</b></li>
+        </ul>
+    </section>
+    <footer>
+        <p>© 2024 My Portfolio</p>
+    </footer>
+    </header>
+    
+</body>
+</html>
